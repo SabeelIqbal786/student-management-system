@@ -1,4 +1,4 @@
-# # #Variables
+# #Variables
 # student_name = "Ali"
 # student_age = 20
 # cgpa = 3.5
@@ -10,7 +10,7 @@
 # age = "20"
 # age = int(age)
 # print(age + 5)
-#  #create class
+# #create class
 # class StudentRecord:
 
 #     def __init__(self, id, name, age):
@@ -25,8 +25,7 @@
 # s1 = StudentRecord(1, "Ali", 20)
 # s1.display()
 
-
-# # # Inheritance part
+#  # Inheritance part
 # class Person:
 
 #     def __init__(self, name):
@@ -45,10 +44,10 @@
 
 # s = Student("Ahmed", 101)
 # s.show()
-# # List
+#  # List
 # students = ["Ali", "Akbar","Hussein","Hassan"]
 # print(students)
-# # Tuple
+# ## Tuple
 # subjects = ("Python", "AI", "CV")
 # print(subjects)
 # #Dictionary
@@ -69,7 +68,7 @@
 
 # while True:
 
-#     print("\n1 Add Student")
+#     print("1 Add Student")
 #     print("2 View Students")
 #     print("3 Exit")
 
@@ -120,37 +119,43 @@
 
 # file.close()
 
-# csv write file
-#import csv
+# # csv write file
+# import csv
 # with open("students.csv", "w", newline="") as file:
 #         writer = csv.writer(file)
 #         writer.writerow(["Name", "Age"])
 #         writer.writerow(["Ali", 20])
 #         writer.writerow(["Ahmed", 22])
 
-# csv read file
-#import csv
+# # csv read file
+# import csv
 # with open("students.csv", "r") as file:
 #     reader = csv.reader(file)
 #     for row in reader:
 #         print(row)
-#json file write
-import json
-student = {
-    "name": "Ali",
-    "age": 20,
-    "cgpa": 3.5
-}
-with open("student.json", "w") as file:
+# #json file write
+# import json
+# student = {
+#     "name": "Ali",
+#     "age": 20,
+#     "cgpa": 3.5
+# }
+# with open("student.json", "w") as file:
 
-    json.dump(student, file)
-#json file read
-import json
+#     json.dump(student, file)
+# #json file read
+# import json
 
-with open("student.json", "r") as file:
+# with open("student.json", "r") as file:
 
-    data = json.load(file)
+#     data = json.load(file)
 
-print(data)
+# print(data)
 
+# new changing
+a=10
+b=3
+c=a+b
+print(c)
+    
 
